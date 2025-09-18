@@ -1,4 +1,3 @@
-
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
 import { CHALLENGES_BY_CATEGORY } from './constants/challenges';
 
@@ -82,6 +81,9 @@ const App: React.FC = () => {
         <footer className="mt-12 text-gray-500 text-sm">
           <p>Chúc các bạn có một buổi tối vui vẻ và an toàn!</p>
           <p>Uống có trách nhiệm. Đã uống rượu bia, không lái xe.</p>
+          <p className="mt-4">
+            Tác giả: Min AI - <a href="https://www.facebook.com/minh.kiki.1/" target="_blank" rel="noopener noreferrer" className="text-yellow-400 hover:underline">Facebook</a> - Zalo 0974032400 (chuyên đào tạo AI thực chiến cho mọi lĩnh vực)
+          </p>
         </footer>
       </main>
     </div>
